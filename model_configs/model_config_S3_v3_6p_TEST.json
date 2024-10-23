@@ -1,0 +1,23 @@
+{
+    "add_dataset_pol_name": "S3_test_reg_results",
+    "cache_path": "cache-test/maps/",
+    "data_path": "/home/d.sorokin/dev/geology/input/",
+    "dataset_name": "S1_v1_and_S3_test",
+    "enable_add_img": true,
+    "exp_out_path": "output_pol",
+    "n_polazied": 6,
+    "net_config": {
+        "LR": 0.001,
+        "batch_s": 16,
+        "n_filters": 16,
+        "n_layers": 4,
+        "patch_overlay": 0.5,
+        "patch_s": 384
+    },
+    "train_config": {
+        "epochs": 50,
+        "n_steps": 800,
+        "val_steps": 80,
+        "num_threads": 1
+    }
+}

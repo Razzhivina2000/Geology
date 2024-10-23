@@ -1,0 +1,27 @@
+exp_1 - initial model trained on S1_v1
+exp_5 - initial model trained on S3_v1 with corrected missed classes
+
+exp_6 - initial model trained on S3_v1 with n_classes_sq in AutoBalancedPatchGenerator and cleared maps cache
+
+output/exp8 - S3_v2 original Sasha model
+
+exp_12, exp_13 - testing fix seed on orig model - failed
+exp_14, exp_16 - testing fix seed on orig model
+
+exp_17 - S1_v1_and_S3_v3 original Sasha model
+
+geology-new - Dasha's original code with experiments
+
+
+output_pol
+
+exp_10 - OK for small batch and iou_tf
+exp_11 - normal batch and it, too slow
+exp_12 - twice less patch size
+exp_16 - S3_v1 3 rotations, 400 iterations, 50 epochs
+
+exp_23 - S3_v2, 3 rotations, 400 iterations, 50 epochs - best 39
+exp_24 - S3_v2, 3 rotations, 800 iterations, 50 epochs - best 35
+exp_27 - S3_v2, 6 rotations, 800 iterations, 50 epochs - best 30
+exp_28 - S3_v2, 3 rotations, 800 iterations, 50 epochs, NO POL - best ?
+exp_29 - S3_v2, 1 rotations, 800 iterations, 50 epochs, - best ?

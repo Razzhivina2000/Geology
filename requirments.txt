@@ -1,0 +1,5 @@
+tensorflow==2.12.*
+tensorflow_addons
+matplotlib
+tqdm
+scikit-image
